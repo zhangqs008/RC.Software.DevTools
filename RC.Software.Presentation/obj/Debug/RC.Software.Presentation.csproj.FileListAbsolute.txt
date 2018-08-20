@@ -1,0 +1,4 @@
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Presentation\bin\Debug\RC.Software.Presentation.dll
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Presentation\bin\Debug\RC.Software.Presentation.pdb
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Presentation\obj\Debug\RC.Software.Presentation.dll
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Presentation\obj\Debug\RC.Software.Presentation.pdb

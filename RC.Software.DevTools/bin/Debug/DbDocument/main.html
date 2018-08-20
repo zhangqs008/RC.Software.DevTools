@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>{$dataBase}数据库文档 </title>
+    <link href="style/stylesheet.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        ul { margin-bottom: 5px; }
+        .subTitle { font-weight: bold; height: 25px; }
+        .subul li { height: 25px; }
+    </style>
+</head>
+<body>
+    <div class="head">
+        {$dataBase}数据库文档
+    </div>
+    <div class="content"> 
+        <ul>
+            <li> 
+                <ul class="subul">
+                    <li>共计：{$tableCount}张表 </li>
+                    <li>文件作者：{$createuser} </li>
+                    <li>创建时间：{$datetime} </li>
+                </ul>
+            </li>
+             
+        </ul>
+    </div>
+    <div class="footer">
+      Created By DevTool
+    </div>
+</body>
+</html>

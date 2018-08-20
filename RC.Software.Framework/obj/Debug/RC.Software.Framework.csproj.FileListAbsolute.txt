@@ -1,0 +1,14 @@
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Framework.dll
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Framework.pdb
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.dll
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.pdb
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.csprojResolveAssemblyReference.cache
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Presentation.dll
+E:\02_源代码\Source\成都人才_代码生成工具\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Presentation.pdb
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Framework.dll
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Framework.pdb
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Presentation.dll
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\bin\Debug\RC.Software.Presentation.pdb
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.csprojResolveAssemblyReference.cache
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.dll
+G:\00.云服务器\04_辅助工具\02_代码生成工具v2\RC.Software.DevTools\RC.Software.Framework\obj\Debug\RC.Software.Framework.pdb

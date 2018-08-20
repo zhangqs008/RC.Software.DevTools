@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D91A186B-CC9B-4FEF-9278-D29257DA0657}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RC.Software.DevTools</RootNamespace>
+    <AssemblyName>RC.Software.DevTools</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>web_code_64px_1179075_easyicon.net.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\RC.Reference\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.TextEditor">
+      <HintPath>..\RC.Reference\ICSharpCode.TextEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="JsonViewer">
+      <HintPath>..\RC.Reference\JsonViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\RC.Reference\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleUpdater">
+      <HintPath>..\RC.Reference\SimpleUpdater.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppConfig.cs" />
+    <Compile Include="FormCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCode.Designer.cs">
+      <DependentUpon>FormCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCodeService.cs" />
+    <Compile Include="FormConfig.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfig.Designer.cs">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDb.Designer.cs">
+      <DependentUpon>FormDb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormIndex.Designer.cs">
+      <DependentUpon>FormIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTemplate.Designer.cs">
+      <DependentUpon>FormTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTool.Designer.cs">
+      <DependentUpon>FormTool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormTemplateService.cs" />
+    <Compile Include="FormToolService.cs" />
+    <Compile Include="FormDbService.cs" />
+    <EmbeddedResource Include="FormCode.resx">
+      <DependentUpon>FormCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfig.resx">
+      <DependentUpon>FormConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDb.resx">
+      <DependentUpon>FormDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormIndex.resx">
+      <DependentUpon>FormIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTemplate.resx">
+      <DependentUpon>FormTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTool.resx">
+      <DependentUpon>FormTool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="script.ico" />
+    <Content Include="web_code_64px_1179075_easyicon.net.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\JinianNet.JNTemplate\JinianNet.JNTemplate.csproj">
+      <Project>{7B4ED0AF-0D18-40C6-BBE9-3744C5A208BA}</Project>
+      <Name>JinianNet.JNTemplate</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RC.Software.Framework\RC.Software.Framework.csproj">
+      <Project>{0D9BBC39-01A2-4CBB-8548-9FB9456A25E9}</Project>
+      <Name>RC.Software.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RC.Software.Presentation\RC.Software.Presentation.csproj">
+      <Project>{92116C13-497C-4F79-99E3-BCC88DB74E5E}</Project>
+      <Name>RC.Software.Presentation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

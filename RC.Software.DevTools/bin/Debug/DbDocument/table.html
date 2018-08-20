@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>${table.TableNote}-数据库文档</title>
+    <style type="text/css">
+        body { font-size: 12px; }
+        .head { width: 98%; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; font-size: 14px; font-weight: bold; color: brown; }
+        .content { width: 98%; line-height: 20px; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; }
+        .footer { width: 98%; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; text-align: center; color: gray; }
+        ul { padding: 0 10px; }
+        li { list-style: none; }
+        th { border: gainsboro solid 1px; height: 25px; }
+        td { border: gainsboro solid 1px; height: 25px; padding-left: 10px;background: white; }
+        tr:hover td { background: none; }
+        table { border: gainsboro solid 1px; border-collapse: collapse; width: 100%; }
+        a { text-decoration: none; }
+        a:link { color: #104E8B; }
+        a:visited { color: #104E8B; }
+        a:active { color: #104E8B; }
+        a:hover { color: #104E8B; }
+    </style>
+</head>
+<body>
+    <div class="head">
+      ${table.TableName} ${table.TableNote}
+    </div>
+    <div class="content">
+        <table class="table">
+            <tr>
+                <th>
+                    字段名称
+                </th>
+                <th>
+                    数据类型（精度范围）
+                </th>
+                <th>
+                    允许为空
+                </th>
+                <th>
+                    约束条件
+                </th>
+                <th>
+                    备注
+                </th>
+            </tr>
+            $foreach(field in fields)
+            <tr>
+                <td>
+                    $field.Name
+                </td>
+                <td>
+                    ${field.Type}($field.length)
+                </td>
+                <td>
+                    ${field.IsNull}
+                </td>
+                <td> 
+                    $if(field.IsPrimaryKey==true) 主键 
+					$else 
+					$end
+                </td>
+                <td>
+                    ${field.note}
+                </td>
+            </tr>
+            $end
+        </table>
+    </div>
+    <div class="footer">
+       Created By DevTool 
+    </div>
+</body>
+</html>

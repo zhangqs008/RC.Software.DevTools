@@ -1,0 +1,38 @@
+body { font-size: 12px; }
+.left { width: 17%; float: left; margin-top: -20px; padding-left: 20px; border-right-width: 1px; border-right-style: solid; border-right-color: rgb(230, 230, 250); }
+.right { width: 80%; float: right; margin-top: -20px; }
+a { text-decoration: none; }
+.main { font-size: 12px; min-width: 300px; margin-left: auto; margin-right: auto; padding-bottom: 20px; padding-top: 20px; }
+h3 { font-size: 12px; font-weight: bold; }
+
+/*表格样式*/
+.members { border: 1px solid rgb(187, 187, 187); border-collapse: collapse; width: 93%; font-size: 12px; }
+tr { display: table-row; vertical-align: inherit; border-color: inherit; }
+th { background-color: rgb(237, 237, 237); color: rgb(112, 112, 112); text-align: left; border: 1px solid rgb(187, 187, 187); border-bottom: 1px solid rgb(219, 219, 219); margin: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 8px; padding-left: 8px; }
+td { min-width: 72px; vertical-align: top; display: table-cell; border-bottom: 1px solid rgb(219, 219, 219); margin: 10px; padding-top: 10px; padding-bottom: 10px; padding-right: 8px; padding-left: 8px; border: 1px solid rgb(187, 187, 187); }
+.btnViewArgs, .btnExpandAll { cursor: pointer; }
+.over { background-color: rgb(237, 237, 237); }
+.content_title { font-weight: bold; }
+.code { padding: 8px; background: white; margin: 8px; color: brown; border: 1px solid lavender; }
+
+body { font-size: 12px; }
+.head { width: 98%; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; font-size: 14px; font-weight: bold; color: brown; }
+.content { width: 98%; line-height: 20px; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; }
+.footer { width: 98%; margin: 10px auto; border: 1px solid gainsboro; padding: 10px; background-color: #F7F7F7; text-align: center; color: gray; }
+ul { padding: 0 10px; }
+li { list-style: none; }
+th { border: gainsboro solid 1px; height: 25px; }
+td { border: gainsboro solid 1px; height: 25px; padding-left: 10px; }
+tr:hover td { background: none; }
+table { border: gainsboro solid 1px; border-collapse: collapse; width: 100%; }
+a { text-decoration: none; }
+a:link { color: #104E8B; }
+a:visited { color: #104E8B; }
+a:active { color: #104E8B; }
+a:hover { color: #104E8B; }
+.functionName { background: rgb(169, 196, 245); padding: 5px; margin: 5px 0px; border-radius: 3px; }
+
+
+.code_note { color: green; }
+.red { color: red; }
+.green { color: green; }
